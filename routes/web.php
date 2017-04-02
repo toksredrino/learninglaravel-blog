@@ -10,4 +10,8 @@ Route::get('/posts/{id}', function($id) {
 	return $post;
 });
 
+Route::get('/test', function() {
+
+});
+
 /*Route::get('posts/{post}', 'PostsController@show');*/
